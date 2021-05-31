@@ -50,7 +50,7 @@ class NodoBST {
         }
 
         friend ostream& operator<<(ostream& out, const NodoBST<T>& nodo) {
-            out << "NodoBST\tvalue:" << nodo.value << "\tparent: " << nodo.parent << "\tdx: " << nodo.dx << "\tsx: " << nodo.sx;
+            out << "NodoBST(" << &nodo << ")\tvalue:" << nodo.value << "\tparent: " << nodo.parent << "\tdx: " << nodo.dx << "\tsx: " << nodo.sx;
             return out;
         }
     

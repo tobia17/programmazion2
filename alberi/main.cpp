@@ -18,7 +18,12 @@ int main(){
 
     tree1.printASC();
     cout << endl;
-    tree1.printDESC();
+    //tree1.printDESC();
+
+    cout << "massimo: " << *tree1.massimo() << endl;
+    cout << "minimo: " << *tree1.minimo() << endl;
+
+    cout << endl << "Nodo trovato con valure 2: " << *tree1.search(2) << endl;
 
     return 0;
 }
